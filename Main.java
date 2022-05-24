@@ -8,7 +8,7 @@ public class Main {
 this is a multi-line comment 
 */
 
-    // primative data types
+    // primitive data types
     // int, double, float, char, boolean, long, short, byte
     // int myInt = 5;
     // double myDouble = 5.5;
@@ -51,6 +51,8 @@ this is a multi-line comment
     // multiplication
     System.out.println("Addition of a and b = " + a * b);
     // division
-    System.out.println("Multiplication of a and b = " + a * b);
+    System.out.println("Multiplication of a and b = " + a / b);
+    // type casting
+    System.out.println("Multiplication of a and b = " + (double) a / b);
   }
 }
