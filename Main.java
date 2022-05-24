@@ -27,5 +27,11 @@ this is a multi-line comment
     System.out.println(myLong);
     System.out.println(myShort);
     System.out.println(myByte);
+
+    // converting from one type to another
+
+    // int to double
+    double myDouble2 = myInt;
+    System.out.println(myDouble2);
   }
 }
