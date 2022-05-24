@@ -43,6 +43,14 @@ this is a multi-line comment
     // basic calculation
     int a = 567;
     int b = 345;
-    System.out.println(a * b);
+    System.out.println("a = " + a);
+    System.out.println("b = " + b);
+    System.out.println("************");
+    System.out.println("Addition of a and b = " + a + b);
+    System.out.println("************");
+    // multiplication
+    System.out.println("Addition of a and b = " + a * b);
+    // division
+    System.out.println("Multiplication of a and b = " + a * b);
   }
 }
