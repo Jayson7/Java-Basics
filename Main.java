@@ -33,5 +33,11 @@ this is a multi-line comment
     // int to double
     double myDouble2 = myInt;
     System.out.println(myDouble2);
+    // short to int
+    int myInt2 = myShort;
+    System.out.println(myInt2);
+    // double to int
+    int myInt3 = (int) myDouble;
+    System.out.println(myInt3);
   }
 }
