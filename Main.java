@@ -41,19 +41,19 @@ this is a multi-line comment
     // System.out.println(myInt3);
     // **********************************
     // basic calculation
-    int a = 567;
-    int b = 345;
-    System.out.println("a = " + a);
-    System.out.println("b = " + b);
-    System.out.println("************");
-    System.out.println("Addition of a and b = " + a + b);
-    System.out.println("************");
-    // multiplication
-    System.out.println("Addition of a and b = " + a * b);
-    // division
-    System.out.println("Multiplication of a and b = " + a / b);
-    // type casting
-    System.out.println("Multiplication of a and b = " + (double) a / b);
+    // int a = 567;
+    // int b = 345;
+    // System.out.println("a = " + a);
+    // System.out.println("b = " + b);
+    // System.out.println("************");
+    // System.out.println("Addition of a and b = " + a + b);
+    // System.out.println("************");
+    // // multiplication
+    // System.out.println("Addition of a and b = " + a * b);
+    // // division
+    // System.out.println("Multiplication of a and b = " + a / b);
+    // // type casting
+    // System.out.println("Multiplication of a and b = " + (double) a / b);
   // this variable cannot be overwritten by the next line
   // final int myFinal = 5;
   // myFinal = 6; wont work
@@ -78,7 +78,26 @@ The size of a primitive type depends on the data type, while non-primitive types
 Examples of non-primitive types are Strings, Arrays, Classes, Interface, etc. 
 */
 
+// Java Type Casting
+// Type casting is when you assign a value of one primitive data type to another type.
 
+
+// Widening Casting
+// Widening casting is done automatically when passing a smaller size type to a larger size type:
+
+//  System.out.println(myInt);      // Outputs 9
+//     System.out.println(myDouble);   // Outputs 9.0
+
+
+// Narrowing Casting
+// Narrowing casting must be done manually by placing the type in parentheses in front of the value:
+// System.out.println(myDouble);   // Outputs 9.78
+//     System.out.println(myInt);      // Outputs 9
+
+
+// String firstName = "John ";
+// String lastName = "Doe";
+// System.out.println(firstName.concat(lastName));
 
 
 
