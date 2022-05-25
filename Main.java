@@ -58,9 +58,11 @@ this is a multi-line comment
   // final int myFinal = 5;
   // myFinal = 6; wont work
   // use plus to join two variables, this rule works for strings only 
-  String s = "street";
-  String l = "light";
-  System.out.println(s + l);
+  // String s = "street";
+  // String l = "light";
+  // System.out.println(s + l);
+  // double can also be called float 
+  System.out.println((float) 34.4);
 
 
   }
