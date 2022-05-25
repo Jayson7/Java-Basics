@@ -54,5 +54,9 @@ this is a multi-line comment
     System.out.println("Multiplication of a and b = " + a / b);
     // type casting
     System.out.println("Multiplication of a and b = " + (double) a / b);
+  // this variable cannot be overwritten by the next line
+  // final int myFinal = 5;
+  // myFinal = 6; wont work
+  
   }
 }
