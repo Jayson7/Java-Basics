@@ -1,4 +1,9 @@
+package student_grade_calculator;
+
+
+
 import java.util.Scanner;
+// import scanner to allow collection of user input
 
 public class GradeCalculator {
     public static void main(String[] args) {
