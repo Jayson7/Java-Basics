@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "Student_Grade_Calculator.src.App",
+      "projectName": "java_bdb04151"
+    },
+    {
+      "type": "java",
+      "name": "Launch App",
+      "request": "launch",
+      "mainClass": "Student_Grade_Calculator.src.App",
+      "projectName": "YourProjectName"
+    }
+  ]
+}
