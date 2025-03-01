@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "time_greeting",
+      "request": "launch",
+      "mainClass": "time_greeting",
+      "projectName": "java_bdb04151"
+    },
+    {
+      "type": "java",
+      "name": "ConditionalStatements",
+      "request": "launch",
+      "mainClass": "ConditionalStatements",
+      "projectName": "java_bdb04151"
+    },
+    {
+      "type": "java",
+      "name": "contditional_statements",
+      "request": "launch",
+      "mainClass": "contditional_statements",
+      "projectName": "java_bdb04151"
+    },
+    {
+      "type": "java",
       "name": "App",
       "request": "launch",
       "mainClass": "Student_Grade_Calculator.src.App",
