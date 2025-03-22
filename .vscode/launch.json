@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "EvenOddChecker",
+      "request": "launch",
+      "mainClass": "EvenOddChecker",
+      "projectName": "java_bdb04151"
+    },
+    {
+      "type": "java",
+      "name": "BankApplication",
+      "request": "launch",
+      "mainClass": "BankApplication",
+      "projectName": "java_bdb04151"
+    },
+    {
+      "type": "java",
       "name": "time_greeting",
       "request": "launch",
       "mainClass": "time_greeting",
