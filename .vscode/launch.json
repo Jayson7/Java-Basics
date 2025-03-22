@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MultiplicationTable",
+      "request": "launch",
+      "mainClass": "MultiplicationTable",
+      "projectName": "java_bdb04151"
+    },
+    {
+      "type": "java",
       "name": "EvenOddChecker",
       "request": "launch",
       "mainClass": "EvenOddChecker",
